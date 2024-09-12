@@ -56,7 +56,7 @@ public class User implements Serializable {
 	
 	
 	@ManyToOne
-	@JoinColumn(name ="subscritions-Type_id")
+	@JoinColumn(name ="subscritions_Type_id")
 	private SubscriptionType subscritionType;
 
 
